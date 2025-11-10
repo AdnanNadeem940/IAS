@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: dee0f8d81c62b2044afde53daaa7dba1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5617713089796759293
+    second: Doted Line.com_0
+  - first:
+      213: 7085837562428925172
+    second: Doted Line.com_1
+  - first:
+      213: -160400934742056089
+    second: Doted Line.com_2
+  - first:
+      213: 1367899804535209486
+    second: Doted Line.com_3
+  - first:
+      213: 4542696491038182718
+    second: Doted Line.com_4
+  - first:
+      213: -3345532330618950121
+    second: Doted Line.com_5
+  - first:
+      213: -2232280873588152185
+    second: Doted Line.com_6
+  - first:
+      213: 4991348506052022162
+    second: Doted Line.com_7
+  - first:
+      213: -1403084109147155255
+    second: Doted Line.com_8
+  - first:
+      213: -6006011792052650443
+    second: Doted Line.com_9
+  - first:
+      213: 2370687012979638844
+    second: Doted Line.com_10
+  - first:
+      213: -574688904879962385
+    second: Doted Line.com_11
+  - first:
+      213: 1278109135806839313
+    second: Doted Line.com_12
+  - first:
+      213: -3110848204372033930
+    second: Doted Line.com_13
+  - first:
+      213: 7094786227139189224
+    second: Doted Line.com_14
+  - first:
+      213: -132983587001367168
+    second: Doted Line.com_15
+  - first:
+      213: 3576611486923437913
+    second: Doted Line.com_16
+  - first:
+      213: 8909532569294366973
+    second: Doted Line.com_17
+  - first:
+      213: -4958408395829972114
+    second: Doted Line.com_18
+  - first:
+      213: 622320790781415122
+    second: Doted Line.com_19
+  - first:
+      213: 4198490681774669826
+    second: Doted Line.com_20
+  - first:
+      213: 1743604030669736719
+    second: Doted Line.com_21
+  - first:
+      213: -8833400680830132137
+    second: Doted Line.com_22
+  - first:
+      213: 213453050516694612
+    second: Doted Line.com_23
+  - first:
+      213: 1976389220263382756
+    second: Doted Line.com_24
+  - first:
+      213: -3317496624758462128
+    second: Doted Line.com_25
+  - first:
+      213: 72895454753349227
+    second: Doted Line.com_26
+  - first:
+      213: -336207778211431286
+    second: Doted Line.com_27
+  - first:
+      213: -5929153033038356051
+    second: Doted Line.com_28
+  - first:
+      213: 3385362234462811228
+    second: Doted Line.com_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Doted Line.com_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1235
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3012a9075bfd902b0800000000000000
+      internalID: -5617713089796759293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doted Line.com_1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1192
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f422bc78b3f55260800000000000000
+      internalID: 7085837562428925172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doted Line.com_2
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1150
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7632f0f133426cdf0800000000000000
+      internalID: -160400934742056089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doted Line.com_3
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1108
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0eb5a1ff91cbf210800000000000000
+      internalID: 1367899804535209486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doted Line.com_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1066
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d8ebee366ea0f30800000000000000
+      internalID: 4542696491038182718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doted Line.com_5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1023
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e6fd812184291d0800000000000000
+      internalID: -3345532330618950121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doted Line.com_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 981
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78821e26f585501e0800000000000000
+      internalID: -2232280873588152185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doted Line.com_7
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 939
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f486d5505d44540800000000000000
+      internalID: 4991348506052022162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doted Line.com_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 897
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c4d944cf6e378ce0800000000000000
+      internalID: -1403084109147155255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doted Line.com_9
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 854
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ef4e9a81c56aca0800000000000000
+      internalID: -6006011792052650443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doted Line.com_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 812
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c328842274f56e020800000000000000
+      internalID: 2370687012979638844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doted Line.com_11
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 770
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe685406c7b4608f0800000000000000
+      internalID: -574688904879962385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doted Line.com_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 728
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11ab2ffbc71ccb110800000000000000
+      internalID: 1278109135806839313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doted Line.com_13
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 685
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e3e344a0c04d4d0800000000000000
+      internalID: -3110848204372033930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doted Line.com_14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 643
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e917f9db7eb57260800000000000000
+      internalID: 7094786227139189224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doted Line.com_15
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 601
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08583d7d12c872ef0800000000000000
+      internalID: -132983587001367168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doted Line.com_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 558
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95737a9923da2a130800000000000000
+      internalID: 3576611486923437913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doted Line.com_17
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 516
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df86093caa405ab70800000000000000
+      internalID: 8909532569294366973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doted Line.com_18
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 474
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e637d33b5d1303bb0800000000000000
+      internalID: -4958408395829972114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doted Line.com_19
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 432
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2decdd6467de2a800800000000000000
+      internalID: 622320790781415122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doted Line.com_20
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 389
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20087ffc709044a30800000000000000
+      internalID: 4198490681774669826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doted Line.com_21
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 347
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b420db0a6823810800000000000000
+      internalID: 1743604030669736719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doted Line.com_22
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 305
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7502d64d1e4796580800000000000000
+      internalID: -8833400680830132137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doted Line.com_23
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 263
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45665442b6656f200800000000000000
+      internalID: 213453050516694612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doted Line.com_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 220
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eec5b3468b8d6b10800000000000000
+      internalID: 1976389220263382756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doted Line.com_25
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 178
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 059e6b98562e5f1d0800000000000000
+      internalID: -3317496624758462128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doted Line.com_26
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 136
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6e5056a70af20100800000000000000
+      internalID: 72895454753349227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doted Line.com_27
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 94
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8cfbf89ecc855bf0800000000000000
+      internalID: -336207778211431286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doted Line.com_28
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 51
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da1a1defaba67bda0800000000000000
+      internalID: -5929153033038356051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doted Line.com_29
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 9
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c54bd2d04093bfe20800000000000000
+      internalID: 3385362234462811228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Doted Line.com_0: -5617713089796759293
+      Doted Line.com_1: 7085837562428925172
+      Doted Line.com_10: 2370687012979638844
+      Doted Line.com_11: -574688904879962385
+      Doted Line.com_12: 1278109135806839313
+      Doted Line.com_13: -3110848204372033930
+      Doted Line.com_14: 7094786227139189224
+      Doted Line.com_15: -132983587001367168
+      Doted Line.com_16: 3576611486923437913
+      Doted Line.com_17: 8909532569294366973
+      Doted Line.com_18: -4958408395829972114
+      Doted Line.com_19: 622320790781415122
+      Doted Line.com_2: -160400934742056089
+      Doted Line.com_20: 4198490681774669826
+      Doted Line.com_21: 1743604030669736719
+      Doted Line.com_22: -8833400680830132137
+      Doted Line.com_23: 213453050516694612
+      Doted Line.com_24: 1976389220263382756
+      Doted Line.com_25: -3317496624758462128
+      Doted Line.com_26: 72895454753349227
+      Doted Line.com_27: -336207778211431286
+      Doted Line.com_28: -5929153033038356051
+      Doted Line.com_29: 3385362234462811228
+      Doted Line.com_3: 1367899804535209486
+      Doted Line.com_4: 4542696491038182718
+      Doted Line.com_5: -3345532330618950121
+      Doted Line.com_6: -2232280873588152185
+      Doted Line.com_7: 4991348506052022162
+      Doted Line.com_8: -1403084109147155255
+      Doted Line.com_9: -6006011792052650443
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
