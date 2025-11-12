@@ -6,13 +6,13 @@ using UnityEngine.SceneManagement;
 
 public class LevelsControlllerScrewGame : MonoBehaviour
 {
-    public static LevelsControlllerScrewGame Instance { get; private set; }
+    public static LevelsControlllerScrewGame Instance;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public GameObject[] LevelsHolder;
     [Header("Panels")]
     public GameObject LevelCompletePanel, LevelFailedPanel, PausePanel;
     int CurrentLevel;
-    public float TimeRemain=180;
+    float TimeRemain=180;
     public bool TimeIsRunning;
     public Text timeText, WinScore, LoseScore;
     public Button NextBtn, ResterBtn, RestartBtnPauseScreen, PauseBtn, ResumeBtn;
@@ -35,22 +35,27 @@ public class LevelsControlllerScrewGame : MonoBehaviour
     }
     IEnumerator TimerCalculate()
     {
-        if(TimeIsRunning)
+        while (TimeIsRunning)
         {
-            if (TimeRemain >= 0)
+            Debug.Log("Time Coroutine Enter");
+            if (TimeIsRunning)
             {
-                TimeRemain -= Time.deltaTime;
-                DisplayTime(TimeRemain);
-            }
-            else
-            {
-                TimeIsRunning = false;
-                TimeRemain = 0;
-                DisplayTime(TimeRemain);
-                LevelFailed();
+                Debug.Log("Time Coroutine is Working");
+                if (TimeRemain >= 0)
+                {
+                    TimeRemain -= 1;
+                    DisplayTime(TimeRemain);
+                    yield return new WaitForSeconds(1);
+                }
+                else
+                {
+                    TimeIsRunning = false;
+                    TimeRemain = 0;
+                    DisplayTime(TimeRemain);
+                    LevelFailed();
+                }
             }
         }
-       yield return new WaitForSeconds(1);
     }
     void DisplayTime(float timeToDisplay)
     {

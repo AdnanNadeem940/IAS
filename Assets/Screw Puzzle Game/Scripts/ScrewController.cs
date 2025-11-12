@@ -6,11 +6,15 @@ public class ScrewController : MonoBehaviour, IPointerDownHandler
 {
     public CircleCollider2D Collider;
     public bool Screwed = true;
+    Vector3 getOldScale;
+    private void Start()
+    {
+        getOldScale = transform.localScale;
+    }
     public void OnPointerDown(PointerEventData eventData)
     {
         if (!GameController.instance.IsSpaceAvialable)
         {
-            Debug.Log("OnPointerDown: " + gameObject.name);
             UnScrewNuts currentNut = GetComponentInParent<UnScrewNuts>();
             GameController.instance.NextNut = currentNut;
 
@@ -31,12 +35,13 @@ public class ScrewController : MonoBehaviour, IPointerDownHandler
     }
     public void SetStatusScrew(bool status, float time)
     {
+
         transform.DOKill();
 
         if (status)
         {
             Screwed = true;
-            transform.DOScale(1f, time);
+            transform.DOScale(getOldScale, time);
             transform.DORotate(new Vector3(0f, 0f, 0f), time).OnComplete(() =>
             {
                 if (GameController.instance.SelectedScrew == this)
@@ -71,6 +76,7 @@ public class ScrewController : MonoBehaviour, IPointerDownHandler
             GameController.instance.SelectedScrew.Collider.isTrigger = false;
             GameController.instance.NextNut.isEmpty = false;
             GameController.instance.SelectedScrew.transform.SetParent(GameController.instance.NextNut.transform);
+
             GameController.instance.SelectedScrew.SetStatusScrew(true, 0.2f);
         });
     }

@@ -1,0 +1,83 @@
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Events;
+
+public class Level : MonoBehaviour
+{
+	[SerializeField] private int moveTime;
+
+	private ScrewManager screwManager;
+
+	[SerializeField] private int numberWinNut;
+
+	public int MoveTime
+	{
+		get
+		{
+			return moveTime;
+		}
+		set
+		{
+			moveTime = value;
+			OnMoveTimeChanged?.Invoke(value);
+		}
+	}
+
+	public UnityEvent<int> OnMoveTimeChanged;
+
+	private void Awake()
+	{
+		screwManager = transform.GetComponentInChildren<ScrewManager>();
+	}
+
+	public bool CheckWin()
+	{
+		List<Bolt> nutList = screwManager.GetScrewLists();
+		nutList.Sort((a, b) =>
+		{
+			int cmp = b.MaxBolt.CompareTo(a.MaxBolt);
+			if (cmp == 0)
+			{
+				return b.NutInBolt.Count.CompareTo(a.NutInBolt.Count);
+			}
+			return cmp;
+		});
+
+		for (int i = 0; i < numberWinNut; i++)
+		{
+			if (!IsValidWinScrew(nutList[i]))
+			{
+				return false;
+			}
+		}
+
+		return true;
+	}
+
+	public bool IsValidWinScrew(Bolt screw)
+	{
+		if (screw == null)
+			return false;
+
+		List<Nut> nuts = screw.NutInBolt;
+
+		if (nuts.Count < screw.MaxBolt)
+			return false;
+
+		Color color = nuts[0].color;
+
+		foreach (var nut in nuts)
+		{
+			if (nut.color != color)
+				return false;
+		}
+
+		return true;
+	}
+
+	public bool CheckLose()
+	{
+		if (GameControllerNutSort.Instance.MoveTimes <= 0) return true;
+		return false;
+	}
+}

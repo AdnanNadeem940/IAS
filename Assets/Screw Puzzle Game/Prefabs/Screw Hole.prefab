@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7284739723794790222}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Blocked GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -172,7 +172,7 @@ MonoBehaviour:
   isEmpty: 1
   NutCollider: {fileID: 3009400410891589628}
   backCheckPoint: {fileID: 7284739723794790222}
-  checkRadius: 0.1
+  checkRadius: 0.025
   hurdleLayer:
     serializedVersion: 2
     m_Bits: 64
