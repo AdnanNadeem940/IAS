@@ -105,7 +105,7 @@ public class BreakManager : MonoBehaviour
                 {
                     //AudioToPlay.Play();
                     var particles = Instantiate(OrbeBrakeParticle, hit.collider.gameObject.transform.position, Quaternion.identity);
-
+                    hit.collider.gameObject.GetComponent<ParentControl>().SetFlowerNull();
                     Destroy(hit.collider.gameObject);
                     Destroy(particles, 1f);
                     //Counter += 1;

@@ -407,8 +407,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectsToSpawn:
-  - {fileID: 919626011105144197, guid: b12fbc92c33c80645905d8241d521e8b, type: 3}
   - {fileID: 8408342263055288476, guid: 5f789a9527fa545438c5467168c995cd, type: 3}
+  - {fileID: 919626011105144197, guid: b12fbc92c33c80645905d8241d521e8b, type: 3}
+  - {fileID: 919626011105144197, guid: 5d603bf83dbd49e48a7c740cc01c6c16, type: 3}
+  - {fileID: 919626011105144197, guid: c988a2c5463e88142b907851abc3c86e, type: 3}
   - {fileID: 8408342263055288476, guid: 5f789a9527fa545438c5467168c995cd, type: 3}
   spawnPlaces:
   - {fileID: 1234824005}
@@ -731,7 +733,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1574351944
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -776,7 +778,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6695950386315148514, guid: b179ba779fc96a843ae91ee0cbc49b61, type: 3}
+  m_Sprite: {fileID: -5618700925317645390, guid: 53ef93376525eea4b86d70e5f292fe7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

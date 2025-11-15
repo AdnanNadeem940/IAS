@@ -7,6 +7,7 @@ public class ParentControl : MonoBehaviour
     {
         Child1.transform.SetParent(null);
         Child1.GetComponent<Rigidbody>().isKinematic=false;
+        Destroy(Child1, 15f);
     }
 
    

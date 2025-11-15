@@ -9,6 +9,10 @@ TagManager:
   - Metal
   - CompleteCount
   - Win
+  - Knife
+  - FxTemporaire
+  - Vegitable
+  - Flower
   layers:
   - Default
   - TransparentFX
@@ -18,7 +22,7 @@ TagManager:
   - UI
   - Metal
   - Hurdle
-  - 
+  - FlowerPluck
   - 
   - 
   - 
