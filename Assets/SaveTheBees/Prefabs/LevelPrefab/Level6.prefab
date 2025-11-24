@@ -293,9 +293,9 @@ Transform:
   m_GameObject: {fileID: 2016187300241209201}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.12, y: -3.15, z: -0.023195554}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: -0.42, y: -3.15, z: -0.023195554}
+  m_LocalScale: {x: 0.18, y: 0.18, z: 0.18}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2116651000236407996}
   - {fileID: 6224607651250275683}
@@ -319,6 +319,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -343,7 +346,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 1483192668, guid: 7a45a8e9ace992043a9cdf91e594d27c, type: 3}
+  m_Sprite: {fileID: -5553475625293608189, guid: a16b2fdcf3467104c8dc766f40f078c6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -373,7 +376,7 @@ MonoBehaviour:
   spawnDelay: 0.2
   isActive: 0
   playerCtrl: {fileID: 0}
-  rangeToSpawn: 0.82
+  rangeToSpawn: 0.55
 --- !u!1 &3072942919072733710
 GameObject:
   m_ObjectHideFlags: 0
@@ -432,7 +435,7 @@ Transform:
   m_GameObject: {fileID: 4222038980261552810}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.47, y: -0.0481, z: 0}
+  m_LocalPosition: {x: 3.066, y: -1.819, z: 0}
   m_LocalScale: {x: 1.0403591, y: 1.0239068, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -455,6 +458,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -479,7 +485,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: -859184388, guid: bcee5854e917ede46b74e880bc1d3934, type: 3}
+  m_Sprite: {fileID: 6859511919348633174, guid: 14d09712d1a0bf44089e43a0cf955820, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -546,7 +552,7 @@ Transform:
   m_GameObject: {fileID: 5467878406144889586}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.18, y: 0, z: 0}
+  m_LocalPosition: {x: 2.68, y: -1.29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -578,7 +584,7 @@ Transform:
   m_GameObject: {fileID: 5858044826745800498}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.663, y: 0, z: 0}
+  m_LocalPosition: {x: 7.09, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -601,6 +607,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -625,7 +634,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: -594036746, guid: 7a45a8e9ace992043a9cdf91e594d27c, type: 3}
+  m_Sprite: {fileID: 600928277, guid: a16b2fdcf3467104c8dc766f40f078c6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4996,6 +5005,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 521810556542901888, guid: dfd428141ae02834fb3f13b3249611c6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 521810556542901888, guid: dfd428141ae02834fb3f13b3249611c6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 521810556542901888, guid: dfd428141ae02834fb3f13b3249611c6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 521810556542901888, guid: dfd428141ae02834fb3f13b3249611c6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 521810556542901888, guid: dfd428141ae02834fb3f13b3249611c6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 521810556542901888, guid: dfd428141ae02834fb3f13b3249611c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1634579959814198681, guid: dfd428141ae02834fb3f13b3249611c6, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7de0ecbc04aed2d4e924545861f01b79, type: 3}
     - target: {fileID: 6646752424837683746, guid: dfd428141ae02834fb3f13b3249611c6, type: 3}
       propertyPath: m_Name
       value: Dog

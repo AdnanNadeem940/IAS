@@ -1433,8 +1433,8 @@ Transform:
   m_GameObject: {fileID: 141297558}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.24, y: -0.55, z: 0.78}
-  m_LocalScale: {x: 0.8, y: 0.01, z: 0.54}
+  m_LocalPosition: {x: -0.24, y: -0.55, z: 1.0027}
+  m_LocalScale: {x: 0.8, y: 0.01, z: 1.0978658}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2893,7 +2893,7 @@ GameObject:
   m_Component:
   - component: {fileID: 317717517}
   - component: {fileID: 317717516}
-  - component: {fileID: 317717515}
+  - component: {fileID: 317717518}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -2901,26 +2901,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &317717515
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 317717514}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
 --- !u!114 &317717516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2951,6 +2931,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &317717518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 317717514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
+  m_ScrollDeltaPerTick: 6
 --- !u!1 &322563214
 GameObject:
   m_ObjectHideFlags: 0
@@ -3336,7 +3347,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 70
+  field of view: 90
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -3363,7 +3374,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0.09229593, y: -0.7010574, z: 0.09229593, w: 0.7010574}
-  m_LocalPosition: {x: 3.097, y: 0.93, z: 0.842}
+  m_LocalPosition: {x: 3.097, y: 0.93, z: 0.694}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3786,8 +3797,8 @@ Transform:
   m_GameObject: {fileID: 374499372}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.70710576, w: 0.70710784}
-  m_LocalPosition: {x: -4.240011, y: 3.2794, z: 0.83}
-  m_LocalScale: {x: 0.83408004, y: 0.01, z: 0.59155643}
+  m_LocalPosition: {x: -4.24, y: 3.2794, z: -0.0892}
+  m_LocalScale: {x: 0.83408004, y: 0.01, z: 1.2350211}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -11205,8 +11216,8 @@ MonoBehaviour:
   - {fileID: 6531578718400463542, guid: d75306197b45c7944abd21445989e8d8, type: 3}
   - {fileID: 4934605365805675095, guid: 4d2fe18c4df8bca4794a05146487382a, type: 3}
   - {fileID: 7708945984498654734, guid: ee4362af4c555ae41ac20255a0f003e1, type: 3}
-  - {fileID: 7509334714039303461, guid: 39bf20c8a0767454baacee0ed66f5b7e, type: 3}
-  - {fileID: 3904165937537285384, guid: f0fa1df7c64896f4e856def3f96d05d4, type: 3}
+  - {fileID: 4711342123669052818, guid: d7cf8d9014e85ca40a104e853860a06c, type: 3}
+  - {fileID: 714091237554681519, guid: f8568a8c5d2c5154c97a2087dcbfe20c, type: 3}
   levelPassed: 1
   currentLevelIndex: 1
   currLevelObject: {fileID: 0}

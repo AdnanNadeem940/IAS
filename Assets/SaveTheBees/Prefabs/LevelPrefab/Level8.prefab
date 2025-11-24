@@ -49,6 +49,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -315,6 +318,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -403,6 +409,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4557,6 +4566,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 3745460977661675677}
     m_Modifications:
     - target: {fileID: 130439653683450832, guid: 53dd063195032754a910a2040b83e556, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -217545913, guid: 2812c368d4e13444890fc39305932ffd, type: 3}
+    - target: {fileID: 130439653683450832, guid: 53dd063195032754a910a2040b83e556, type: 3}
       propertyPath: m_SortingOrder
       value: -7
       objectReference: {fileID: 0}
@@ -4581,6 +4594,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3149760693674940856, guid: 53dd063195032754a910a2040b83e556, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1990438767, guid: 2812c368d4e13444890fc39305932ffd, type: 3}
+    - target: {fileID: 3149760693674940856, guid: 53dd063195032754a910a2040b83e556, type: 3}
       propertyPath: m_SortingOrder
       value: -7
       objectReference: {fileID: 0}
@@ -4588,6 +4605,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Axit
       objectReference: {fileID: 0}
+    - target: {fileID: 3983553840342554861, guid: 53dd063195032754a910a2040b83e556, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1297998609, guid: 2812c368d4e13444890fc39305932ffd, type: 3}
     - target: {fileID: 3983553840342554861, guid: 53dd063195032754a910a2040b83e556, type: 3}
       propertyPath: m_SortingOrder
       value: -7
@@ -13959,6 +13980,26 @@ PrefabInstance:
     - target: {fileID: 244513442296132799, guid: dfd428141ae02834fb3f13b3249611c6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 521810556542901888, guid: dfd428141ae02834fb3f13b3249611c6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 521810556542901888, guid: dfd428141ae02834fb3f13b3249611c6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 521810556542901888, guid: dfd428141ae02834fb3f13b3249611c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1634579959814198681, guid: dfd428141ae02834fb3f13b3249611c6, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7de0ecbc04aed2d4e924545861f01b79, type: 3}
+    - target: {fileID: 2509341481708189221, guid: dfd428141ae02834fb3f13b3249611c6, type: 3}
+      propertyPath: m_Radius
+      value: 0.66
       objectReference: {fileID: 0}
     - target: {fileID: 6646752424837683746, guid: dfd428141ae02834fb3f13b3249611c6, type: 3}
       propertyPath: m_Name

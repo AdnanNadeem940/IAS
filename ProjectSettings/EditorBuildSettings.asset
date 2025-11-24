@@ -26,6 +26,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BrakeThings.unity
     guid: 98cb972e23fd8b845b409fd02106e02c
+  - enabled: 1
+    path: Assets/Scenes/PopObjects.unity
+    guid: 8f9909c5d8c943345ae673f554bad80f
+  - enabled: 1
+    path: Assets/Scenes/BusGame.unity
+    guid: f2b6071a3e222974791e35812a5c758c
+  - enabled: 1
+    path: Assets/Scenes/SaveTheBees.unity
+    guid: 50a8d09430d8c8545ac59c81feaf0ba3
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
   m_UseUCBPForAssetBundles: 0
